@@ -1,0 +1,59 @@
+{
+    "fulfillmentResponse": {
+        "messages": [
+            {
+                "channel": "",
+                "payload": {
+                    "botcopy": [
+                        {
+                            "card": {
+                                "action": {
+                                    "buttons": [
+                                        {
+                                            "action": {
+                                                "message": {
+                                                    "command": "Book Now",
+                                                    "type": "training"
+                                                }
+                                            },
+                                            "title": "Book Now"
+                                        }
+                                    ]
+                                },
+                                "body": "Flight to Dubai, United Arab Emirates - Dubai (DXB)\n⋯\n🟢New Delhi, India - Indira Gandhi Intl (DEL) | Sep 21, 2024 at 04:55 AM\n↓\n\nStop: 2\n🟡Manama, Bahrain - Bahrain International (BAH)\n    Arrival : 2024-09-21 06:40:00\n    Departure : 2024-09-21 09:40:00\n\n↓\n\n🔴Dubai, United Arab Emirates - Dubai (DXB) | Sep 21, 2024 at 12:05 PM ",
+                                "image": {
+                                    "alt": "image of plane",
+                                    "url": "https://goagentgomarket.vgtechdemo.com/public/assets/airlines/GF.svg"
+                                },
+                                "subtitle": "5hr and 40min",
+                                "title": "Gulf Air| ₦402503.0"
+                            }
+                        }
+                    ]
+                },
+                "responseType": "RESPONSE_TYPE_UNSPECIFIED"
+            },
+            {
+                "channel": "",
+                "payload": {
+                    "botcopy": [
+                        {
+                            "suggestions": [
+                                {
+                                    "action": {
+                                        "message": {
+                                            "command": "I would like to choose another option",
+                                            "type": "training"
+                                        }
+                                    },
+                                    "title": "would you like to choose another option"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "responseType": "RESPONSE_TYPE_UNSPECIFIED"
+            }
+        ]
+    }
+}

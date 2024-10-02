@@ -1,0 +1,159 @@
+"body":f'''Flight to {to_city} |Stops{'stops'}\n
+departure:{departure_airport[0]}| {departure_time[0]}\n arrival:{arrival_airport[0]} | {arrival_time[0]}\nlayover\n departure:{arrival_airport[0]} | {departure_time[1]}\n
+arrival:{arrival_airport[1]} | {arrival_time[1]}\n departure:{arrival_airport[1]} | {departure_time[2]}\n arrival:{arrival_airport[2]} | {arrival_time[2]}\n
+Flight to {from_city} | stops{stops}\n 
+departure:{returndepartureAirport[0]} | {returnDeparturetime[0]}\n arrival:{returnarrivalAirport[0]} | {returnArrivaltime}\n departure:{returnarrivalAirport[0]}|{returnDeparturetime[1]}\n
+arrival:{returnarrivalAirport[1]}|{returnArrivaltime[1]}\ndeparture:{returnarrivalAirport[1]}|{returnDeparturetime[2]}\narrival:{returnarrivalAirport[2]} | {returnArrivaltime[2]}\n
+''',
+
+
+
+
+
+
+one_wat
+=
+
+"body":f''' departur:{departure_airport[0]}|{departure_time[0]}\narrival:{arrival_airport[0]}|{arrival_time[0]}\n
+departure:{arrival_airport[0]}|{departure_time[1]}\narrival:{arrival_airport[1]}|{arrival_time[1]}\ndeparture:{arrival_airport[1]}|{departure_time[2]}\n
+arrival:{arrival_airport[2]}|{arrival_time[2]}  '''
+
+
+
+import requests
+from pprint import pprint
+from datetime import datetime
+
+
+
+
+
+def stops_finder(arrloctxt, deploctext, arrtime, deptime):
+    stops = [places for places in deploctext if places in arrloctxt]
+    
+    # If no stops found, return an empty dictionary
+    if not stops:
+        return {}
+
+    stops_arr = arrtime[:-1]  # Take all except last for arrival times
+    stops_dep = deptime[1:]   # Take all except first for departure times
+    stops_and_time = {}
+
+    for i in range(0, len(stops)):
+        stops_and_time[stops[i]] = {"arrivalTime": stops_arr[i], "departureTime": stops_dep[i]}
+    
+    return stops_and_time
+
+# def format_timestamp(timestamp):
+#     dt_object = datetime.strptime(timestamp[0], "%Y-%m-%dT%H:%M:%S")
+#     return dt_object.strftime("%b %d, %Y at %I:%M %p")
+
+def format_timestamp(timestamps):
+    if isinstance(timestamps, list):
+        return [datetime.strptime(ts, "%Y-%m-%dT%H:%M:%S").strftime("%b %d, %Y at %I:%M %p") for ts in timestamps]
+    else:
+        dt_object = datetime.strptime(timestamps, "%Y-%m-%dT%H:%M:%S")
+        return dt_object.strftime("%b %d, %Y at %I:%M %p")
+
+# def convert_minutes_to_readable_format(total_duration:int):
+#     hours = total_duration // 60
+#     minutes = total_duration % 60
+#     return f"{hours}hr and {minutes}min" if hours else f"{minutes} minutes"
+
+
+def convert_minutes_to_readable_format(total_duration):
+    def format_duration(minutes):
+        hours = minutes // 60
+        remaining_minutes = minutes % 60
+        if hours:
+            return f"{hours}hr and {remaining_minutes}min"
+        else:
+            return f"{remaining_minutes} minutes"
+    
+    if isinstance(total_duration, list):
+        return [format_duration(duration) for duration in total_duration]
+    else:
+        return format_duration(total_duration)
+
+
+def fetch_flight_result(trip_type, from_city, to_city, depart_date, return_date, adults, children, infants, cabin_class, currency):
+    
+    url = "https://goagentgomarket.vgtechdemo.com/api/search-flights"
+
+    payload = {
+        "trip_type": trip_type,
+        "from_city": from_city,
+        "to_city": to_city,
+        "depart_date": depart_date,
+        "return_date": return_date,
+        "adults": adults,
+        "children": children,
+        "infants": infants,
+        "cabin_class": cabin_class,
+        "currency": currency
+    }
+    response = requests.post(url, json=payload)
+    response.raise_for_status()
+    response = response.json()
+
+    top_flights = response.get('data', [])[:5]
+    
+    flight_results = []
+
+    for entry in top_flights:
+        if 'onewaydata' in entry:
+            for item in entry['onewaydata']:
+                arrival_text=item.get("Arrival_LocationText")
+                departure_text=item.get("Departure_LocationText")
+                arrival_time=item.get("arrival_date_time")
+                departure_time=item.get("departure_date_time")
+                stopsbreakdown=stops_finder(arrival_text,departure_text,arrival_time,departure_time)
+                
+                flight_details = {
+                    'arrival_airport': item.get("Arrival_LocationText", ''),
+                    'departure_airport': item.get('Departure_LocationText', ''),
+                    'airline_name': item.get('OperatingAirline_Text', ''),
+                    'airline_image': item.get('OperatingAirline_Image', ''),
+                    'arrival_time': format_timestamp(item.get('arrival_date_time', '')),
+                    'departure_time': format_timestamp(item.get('departure_date_time', '')),
+                    'total_fare': item.get('total_fare', ''),
+                    'trip_type': item.get('trip_type', ''),
+                    'unique_no': item.get('unique_ref_no', ''),
+                    'cabin_type': item.get('Cabin_Text', ''),
+                    'stops': item.get('stops', ''),
+                    'flight_number': item.get('flight_number', ''),
+                    'group_ind': item.get('group_ind', ''),
+                    'duration': convert_minutes_to_readable_format(item.get('total_duration', '')),
+                    'arrival_location':item.get('arrival_location_code',''),
+                    'departure_location':item.get('departure_location_code',''),
+                    'stopsbreakdown':stopsbreakdown
+                }
+
+                if 'returndata' in item:
+                    for return_data in item['returndata'][0]:
+                        return_arrival_text=return_data.get("Arrival_LocationText"),
+                        return_departure_text=return_data.get("Departure_LocationText"),
+                        return_arrival_time=return_data.get("arrival_date_time"),
+                        return_departure_time=return_data.get("departure_date_time")
+
+                        return_flight_details = {
+                            'return_arrival': return_data.get('Arrival_LocationText', ''),
+                            'return_departure': return_data.get('Departure_LocationText', ''),
+                            're_airline_image': return_data.get('OperatingAirline_Image', ''),
+                            're_airline_name': return_data.get('OperatingAirline_Text', ''),
+                            're_arrival_time': format_timestamp(return_data.get('arrival_date_time', '')),
+                            're_departure_time': format_timestamp(return_data.get('departure_date_time', '')),
+                            're_stops': return_data.get('stops', ''),
+                            're_total_fare': return_data.get('total_fare', ''),
+                            're_trip_type': return_data.get('trip_type', ''),
+                            're_unique_no': return_data.get('unique_ref_no', ''),
+                            're_duration': return_data.get('total_duration', ''),
+                            're_arrival_location':return_data.get('arrival_location_code',''),
+                            're_departure_location':return_data.get('departure_location_code',''),
+                            'returnstopsbreakdown':stops_finder(return_arrival_text,return_departure_text,return_arrival_time,return_departure_time)
+                        }
+                        flight_details.update(return_flight_details)
+
+                flight_results.append(flight_details)
+
+    return flight_results

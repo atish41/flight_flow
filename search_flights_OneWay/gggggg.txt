@@ -1,0 +1,105 @@
+{'detectIntentResponseId': 'd1fbb338-f28f-49c6-a223-a2079cbc9d19',
+ 'fulfillmentInfo': {'tag': 'This webhook returns botcopy flight search '
+                            'results'},
+ 'intentInfo': {'confidence': 1.0,
+                'displayName': 'confirmation.yes',
+                'lastMatchedIntent': 'projects/travel-chatbot-409605/locations/us-central1/agents/ad7caede-bce6-4562-ae2f-8dacfb73bddf/intents/e4782034-5b90-4b67-af34-29ba78d7f538'},
+ 'languageCode': 'en',
+ 'languageInfo': {'confidenceScore': 1.0,
+                  'inputLanguageCode': 'en',
+                  'resolvedLanguageCode': 'en'},
+ 'messages': [{'responseType': 'HANDLER_PROMPT',
+               'source': 'VIRTUAL_AGENT',
+               'text': {'containAiGeneratedContent': True,
+                        'containGeneratorsContent': True,
+                        'redactedText': ['Did you know💡 that the iconic Red '
+                                         'Fort in Delhi, India, took over 10 '
+                                         'years to build and was constructed '
+                                         'using red sandstone?'],
+                        'text': ['Did you know💡 that the iconic Red Fort in '
+                                 'Delhi, India, took over 10 years to build '
+                                 'and was constructed using red sandstone?']}}],
+ 'pageInfo': {'currentPage': 'projects/travel-chatbot-409605/locations/us-central1/agents/ad7caede-bce6-4562-ae2f-8dacfb73bddf/flows/a2735fbd-0179-49a4-99e8-30577c9ccf93/pages/1d09aad9-37fa-47ad-8026-32018bd6b01e',
+              'displayName': 'FlightSearch results'},
+ 'payload': {},
+ 'sessionInfo': {'parameters': {'$request.generative.fun_fact': 'Did you know💡 '
+                                                                'that the '
+                                                                'iconic Red '
+                                                                'Fort in '
+                                                                'Delhi, India, '
+                                                                'took over 10 '
+                                                                'years to '
+                                                                'build and was '
+                                                                'constructed '
+                                                                'using red '
+                                                                'sandstone?',
+                                'adults': '1',
+                                'bcBotId': '66a73cff8ab6df0008175de1',
+                                'bcCurrentUrl': {'origin': 'http://127.0.0.1:5500',
+                                                 'path': '/team.html',
+                                                 'url': 'http://127.0.0.1:5500/team.html'},
+                                'bcTime': '4:27:49 PM',
+                                'bcTimeZone': 'Asia/Calcutta',
+                                'children': '0',
+                                'departure-date': {'day': 12.0,
+                                                   'month': 9.0,
+                                                   'year': 2024.0},
+                                'destination-city': 'New Delhi, India - Indira '
+                                                    'Gandhi Intl (DEL)',
+                                'infants': '0',
+                                'origin-city': 'Mumbai, India - Chhatrapati '
+                                               'Shivaji International (BOM)',
+                                'returndate': '',
+                                'travel-class': 'Y',
+                                'triptype': 'S'},
+                 'session': 'projects/travel-chatbot-409605/locations/us-central1/agents/ad7caede-bce6-4562-ae2f-8dacfb73bddf/sessions/04cb819a-d8cd-35f5-7492-b1e15234181b'},
+ 'text': 'yes'}
+("this is flight show[{'arrival_airport': ['New Delhi, India - Indira Gandhi "
+ "Intl (DEL)'], 'departure_airport': ['Mumbai, India - Chhatrapati Shivaji "
+ "International (BOM)'], 'airline_name': ['Air India'], 'airline_image': "
+ "['https://goagentgomarket.vgtechdemo.com/public/assets/airlines/AI.svg'], "
+ "'arrival_time': ['Sep 12, 2024 at 03:50 AM'], 'departure_time': ['Sep 12, "
+ "2024 at 01:30 AM'], 'total_fare': 731873, 'trip_type': 'S', 'unique_no': "
+ "'YVM6CXA92329', 'cabin_type': ['Economy'], 'stops': 1, 'flight_number': "
+ "['859'], 'group_ind': 1, 'duration': '2hr and 20min', 'arrival_location': "
+ "['DEL'], 'departure_location': ['BOM']}, {'arrival_airport': ['New Delhi, "
+ "India - Indira Gandhi Intl (DEL)'], 'departure_airport': ['Mumbai, India - "
+ "Chhatrapati Shivaji International (BOM)'], 'airline_name': ['Air India'], "
+ "'airline_image': "
+ "['https://goagentgomarket.vgtechdemo.com/public/assets/airlines/AI.svg'], "
+ "'arrival_time': ['Sep 12, 2024 at 09:15 AM'], 'departure_time': ['Sep 12, "
+ "2024 at 07:00 AM'], 'total_fare': 731873, 'trip_type': 'S', 'unique_no': "
+ "'YVM6CXA92329', 'cabin_type': ['Economy'], 'stops': 1, 'flight_number': "
+ "['864'], 'group_ind': 2, 'duration': '2hr and 15min', 'arrival_location': "
+ "['DEL'], 'departure_location': ['BOM']}, {'arrival_airport': ['New Delhi, "
+ "India - Indira Gandhi Intl (DEL)'], 'departure_airport': ['Mumbai, India - "
+ "Chhatrapati Shivaji International (BOM)'], 'airline_name': ['Air India'], "
+ "'airline_image': "
+ "['https://goagentgomarket.vgtechdemo.com/public/assets/airlines/AI.svg'], "
+ "'arrival_time': ['Sep 12, 2024 at 10:20 AM'], 'departure_time': ['Sep 12, "
+ "2024 at 08:00 AM'], 'total_fare': 731873, 'trip_type': 'S', 'unique_no': "
+ "'YVM6CXA92329', 'cabin_type': ['Economy'], 'stops': 1, 'flight_number': "
+ "['806'], 'group_ind': 3, 'duration': '2hr and 20min', 'arrival_location': "
+ "['DEL'], 'departure_location': ['BOM']}, {'arrival_airport': ['New Delhi, "
+ "India - Indira Gandhi Intl (DEL)'], 'departure_airport': ['Mumbai, India - "
+ "Chhatrapati Shivaji International (BOM)'], 'airline_name': ['Air India'], "
+ "Chhatrapati Shivaji International (BOM)'], 'airline_name': ['Air India'], "
+ "'airline_image': "
+ "['https://goagentgomarket.vgtechdemo.com/public/assets/airlines/AI.svg'], "
+ "'airline_image': "
+ "['https://goagentgomarket.vgtechdemo.com/public/assets/airlines/AI.svg'], "
+ "['https://goagentgomarket.vgtechdemo.com/public/assets/airlines/AI.svg'], "
+ "'arrival_time': ['Sep 12, 2024 at 11:20 AM'], 'departure_time': ['Sep 12, "
+ "2024 at 09:00 AM'], 'total_fare': 731873, 'trip_type': 'S', 'unique_no': "
+ "'YVM6CXA92329', 'cabin_type': ['Economy'], 'stops': 1, 'flight_number': "
+ "['866'], 'group_ind': 4, 'duration': '2hr and 20min', 'arrival_location': "
+ "['DEL'], 'departure_location': ['BOM']}, {'arrival_airport': ['New Delhi, "
+ "India - Indira Gandhi Intl (DEL)'], 'departure_airport': ['Mumbai, India - "
+ "Chhatrapati Shivaji International (BOM)'], 'airline_name': ['Air India'], "
+ "'airline_image': "
+ "['https://goagentgomarket.vgtechdemo.com/public/assets/airlines/AI.svg'], "
+ "'arrival_time': ['Sep 12, 2024 at 12:15 PM'], 'departure_time': ['Sep 12, "
+ "2024 at 10:00 AM'], 'total_fare': 731873, 'trip_type': 'S', 'unique_no': "
+ "'YVM6CXA92329', 'cabin_type': ['Economy'], 'stops': 1, 'flight_number': "
+ "['809'], 'group_ind': 5, 'duration': '2hr and 15min', 'arrival_location': "
+ "['DEL'], 'departure_location': ['BOM']}]")

@@ -1,0 +1,38 @@
+{
+    "fulfillmentResponse": {
+        "messages": [
+            {
+                "channel": "",
+                "payload": {
+                    "botcopy": [
+                        {
+                            "card": {
+                                "action": {
+                                    "buttons": [
+                                        {
+                                            "action": {
+                                                "link": {
+                                                    "target": "_blank",
+                                                    "url": "https://checkout-v2.dev-flutterwave.com/v3/hosted/pay/e94434af25f473fa780c"
+                                                }
+                                            },
+                                            "title": "Make Payment"
+                                        }
+                                    ]
+                                },
+                                "body": "Booking initialized successfully.\n2024-09-25T08:19:08.000000Z",
+                                "image": {
+                                    "alt": "Image of airline",
+                                    "url": "https://goagentgomarket.vgtechdemo.com/public/assets/airlines/AI.svg"
+                                },
+                                "subtitle": "Booking ID-27 | flutterwave",
+                                "title": "NGN| ₦ 742277.00"
+                            }
+                        }
+                    ]
+                },
+                "responseType": "RESPONSE_TYPE_UNSPECIFIED"
+            }
+        ]
+    }
+}

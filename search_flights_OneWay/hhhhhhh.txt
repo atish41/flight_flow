@@ -1,0 +1,62 @@
+{'detectIntentResponseId': 'd704a0fa-c847-4e08-91ba-37fd64fa0407',
+ 'fulfillmentInfo': {'tag': 'This webhook returns botcopy flight search '
+                            'results'},
+ 'intentInfo': {'confidence': 1.0,
+                'displayName': 'confirmation.yes',
+                'lastMatchedIntent': 'projects/travel-chatbot-409605/locations/us-central1/agents/ad7caede-bce6-4562-ae2f-8dacfb73bddf/intents/e4782034-5b90-4b67-af34-29ba78d7f538'},
+ 'languageCode': 'en',
+ 'languageInfo': {'confidenceScore': 1.0,
+                  'inputLanguageCode': 'en',
+                  'resolvedLanguageCode': 'en'},
+ 'messages': [{'responseType': 'HANDLER_PROMPT',
+               'source': 'VIRTUAL_AGENT',
+               'text': {'containAiGeneratedContent': True,
+                        'containGeneratorsContent': True,
+                        'redactedText': ['Did you know that Dubai is home to '
+                                         'the tallest building in the world, '
+                                         'the Burj Khalifa? 😲'],
+                        'text': ['Did you know that Dubai is home to the '
+                                 'tallest building in the world, the Burj '
+                                 'Khalifa? 😲']}}],
+ 'pageInfo': {'currentPage': 'projects/travel-chatbot-409605/locations/us-central1/agents/ad7caede-bce6-4562-ae2f-8dacfb73bddf/flows/a2735fbd-0179-49a4-99e8-30577c9ccf93/pages/1d09aad9-37fa-47ad-8026-32018bd6b01e',
+              'displayName': 'FlightSearch results'},
+ 'payload': {},
+ 'sessionInfo': {'parameters': {'$request.generative.fun_fact': 'Did you know '
+                                                                'that Dubai is '
+                                                                'home to the '
+                                                                'tallest '
+                                                                'building in '
+                                                                'the world, '
+                                                                'the Burj '
+                                                                'Khalifa? 😲',
+                                'adults': '1',
+                                'bcBotId': '66a73cff8ab6df0008175de1',
+                                'bcCurrentUrl': {'origin': 'http://127.0.0.1:5500',
+                                                 'path': '/team.html',
+                                                 'url': 'http://127.0.0.1:5500/team.html'},
+                                'bcTime': '4:23:25 PM',
+                                'bcTimeZone': 'Asia/Calcutta',
+                                'children': '0',
+                                'departure-date': {'day': 13.0,
+                                                   'future': {'day': 13.0,
+                                                              'month': 9.0,
+                                                              'year': 2024.0},
+                                                   'month': 9.0,
+                                                   'partial': {'day': 13.0,
+                                                               'month': 9.0,
+                                                               'year': 2024.0},
+                                                   'past': {'day': 6.0,
+                                                            'month': 9.0,
+                                                            'year': 2024.0},
+                                                   'year': 2024.0},
+                                'destination-city2': 'Dubai, United Arab '
+                                                     'Emirates - Dubai (DXB)',
+                                'infants': '0',
+                                'origin-city': 'Mumbai, India - Chhatrapati '
+                                               'Shivaji International (BOM)',
+                                'returndate': '',
+                                'travel-class': 'Y',
+                                'triptype': 'S'},
+                 'session': 'projects/travel-chatbot-409605/locations/us-central1/agents/ad7caede-bce6-4562-ae2f-8dacfb73bddf/sessions/6c82333a-fc79-83bc-6564-bc6c482f8385'},
+ 'text': 'yes'}
+'this is flight show[]'

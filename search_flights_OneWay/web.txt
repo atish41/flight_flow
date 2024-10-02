@@ -1,0 +1,49 @@
+  
+{'detectIntentResponseId': '40582800-ddfc-4b53-9e57-1c5a2f3b3f32',
+ 'fulfillmentInfo': {'tag': 'This webhook returns botcopy flight search '
+                            'results'},
+ 'intentInfo': {'confidence': 1.0,
+                'displayName': 'confirmation.yes',
+                'lastMatchedIntent': 'projects/travel-chatbot-409605/locations/us-central1/agents/ad7caede-bce6-4562-ae2f-8dacfb73bddf/intents/e4782034-5b90-4b67-af34-29ba78d7f538'},
+ 'languageCode': 'en',
+ 'languageInfo': {'confidenceScore': 1.0,
+                  'inputLanguageCode': 'en',
+                  'resolvedLanguageCode': 'en'},
+ 'messages': [{'responseType': 'HANDLER_PROMPT',
+               'source': 'VIRTUAL_AGENT',
+               'text': {'containAiGeneratedContent': True,
+                        'containGeneratorsContent': True,
+                        'redactedText': ['Did you know💡 that there are over '
+                                         '300 cheese shops in Paris?'],
+                        'text': ['Did you know💡 that there are over 300 cheese '
+                                 'shops in Paris?']}}],
+ 'pageInfo': {'currentPage': 'projects/travel-chatbot-409605/locations/us-central1/agents/ad7caede-bce6-4562-ae2f-8dacfb73bddf/flows/a2735fbd-0179-49a4-99e8-30577c9ccf93/pages/1d09aad9-37fa-47ad-8026-32018bd6b01e',
+              'displayName': 'FlightSearch results'},
+ 'payload': {},
+ 'sessionInfo': {'parameters': {'$request.generative.fun_fact': 'Did you know💡 '
+                                                                'that there '
+                                                                'are over 300 '
+                                                                'cheese shops '
+                                                                'in Paris?',
+                                'adults': '1',
+                                'bcBotId': '66a73cff8ab6df0008175de1',
+                                'bcCurrentUrl': {'origin': 'http://127.0.0.1:5500',
+                                                 'path': '/team.html',
+                                                 'url': 'http://127.0.0.1:5500/team.html'},
+                                'bcTime': '10:55:51 PM',
+                                'bcTimeZone': 'Asia/Calcutta',
+                                'children': '0',
+                                'departure-date': {'day': 4.0,
+                                                   'month': 9.0,
+                                                   'year': 2024.0},
+                                'destination-city2': 'London, United Kingdom - '
+                                                     'London Gatwick (LGW)',
+                                'infants': '0',
+                                'origin-city': '',
+                                'origin-city2': 'London, United Kingdom - '
+                                                'London Heathrow (LHR)',
+                                'returndate': '',
+                                'travel-class': 'Y',
+                                'triptype': 'S'},
+                 'session': 'projects/travel-chatbot-409605/locations/us-central1/agents/ad7caede-bce6-4562-ae2f-8dacfb73bddf/sessions/6d906ed5-9da5-3220-6032-548229e906a1'},
+ 'text': 'yes'}

@@ -1,0 +1,791 @@
+{
+    "status": true,
+    "message": "flights data",
+    "data": [
+        {
+            "onewaydata": [
+                {
+                    "api": "sabre",
+                    "pcc": "WD4H",
+                    "vat": 0,
+                    "meal": "B,S",
+                    "cabin": [
+                        "Y",
+                        "Y"
+                    ],
+                    "stops": 2,
+                    "adults": "1",
+                    "origin": "DEL",
+                    "infants": "0",
+                    "agent_id": 1,
+                    "children": "1",
+                    "discount": 0,
+                    "duration": [
+                        "290",
+                        "85"
+                    ],
+                    "net_fare": 800428,
+                    "tax_code": "TOTALTAX",
+                    "base_fare": 482122,
+                    "fare_type": ",",
+                    "flight_id": 0,
+                    "group_ind": 1,
+                    "trip_type": "S",
+                    "agent_name": "Vijay Porje",
+                    "session_id": "FI7V7NDR90921",
+                    "tax_amount": 318306,
+                    "total_fare": 800628,
+                    "destination": "DXB",
+                    "access_token": "T1RLAQLtkftG5J7G9KeFKX/YFTz8AnBwk60sBsE4uZYwGhv6nRBgfxF7xyeiy2r/qyA1vskZAADQGFiqrw/sQsYbWF5H5lgRUXNxQH6U74ZST3WoW1APtufdPEiWpa8exKGqr64siXJpYvEsCLDeH29/EnDhvqd8khS4BXLME8R5trLo39EYP0qd4IfS6nPn50A2xTAefL5f2FtHM8ni9NcxqsPzq1as81ZkXV1OyPA1gwzwb6S2SIqWRTY2ys+jnhBXlhJIo3nwFf+XUSGD7lkdqxaH2X8Obrw8kiPzOfd7EEO1AT4qmtOJEJvxOJDN+ON/Di1K5SvvOKWrJPp3/+aGC9AYZszUUg**",
+                    "admin_markup": 0,
+                    "agent_markup": 0,
+                    "seat_to_sell": [
+                        "9",
+                        "9"
+                    ],
+                    "currency_code": "NGN",
+                    "direction_ind": "OneWay",
+                    "flight_number": [
+                        "131",
+                        "508"
+                    ],
+                    "stop_quantity": [
+                        "0",
+                        "0"
+                    ],
+                    "unique_ref_no": "FI7V7NDR9092",
+                    "air_equip_type": [
+                        "32Q",
+                        "32N"
+                    ],
+                    "passenger_type": [
+                        "ADT",
+                        "CNN"
+                    ],
+                    "payment_charge": 0,
+                    "service_charge": 0,
+                    "total_duration": 375,
+                    "discount_markup": 0,
+                    "equivalent_fare": 482122,
+                    "arrival_date_time": [
+                        "2024-11-22T08:00:00",
+                        "2024-11-22T18:15:00"
+                    ],
+                    "ordinary_discount": 0,
+                    "passenger_quantity": [
+                        "1",
+                        "1"
+                    ],
+                    "baggage_information": [
+                        [
+                            {
+                                "Pieces": 2
+                            }
+                        ],
+                        [
+                            {
+                                "Pieces": 2
+                            }
+                        ]
+                    ],
+                    "departure_date_time": [
+                        "2024-11-22T05:40:00",
+                        "2024-11-22T15:50:00"
+                    ],
+                    "passenger_base_fare": [
+                        "12160",
+                        "12160"
+                    ],
+                    "passenger_total_tax": [
+                        "159153",
+                        "159153"
+                    ],
+                    "passenger_total_fare": [
+                        "400214",
+                        "400214"
+                    ],
+                    "arrival_location_code": [
+                        "BAH",
+                        "DXB"
+                    ],
+                    "marketing_airline_code": [
+                        "GF",
+                        "GF"
+                    ],
+                    "operating_airline_code": [
+                        "GF",
+                        "GF"
+                    ],
+                    "api_cancellation_amount": 0,
+                    "base_fare_currency_code": "NGN",
+                    "departure_location_code": [
+                        "DEL",
+                        "BAH"
+                    ],
+                    "admin_cancellation_amount": 0,
+                    "passenger_equivalent_fare": [
+                        "241061",
+                        "241061"
+                    ],
+                    "res_book_designation_code": [
+                        "W",
+                        "W"
+                    ],
+                    "operating_airline_flight_number": [
+                        "131",
+                        "508"
+                    ],
+                    "Origin_Text": "New Delhi, India - Indira Gandhi Intl (DEL)",
+                    "Destination_Text": "Dubai, United Arab Emirates - Dubai (DXB)",
+                    "Departure_LocationText": [
+                        "New Delhi, India - Indira Gandhi Intl (DEL)",
+                        "Manama, Bahrain - Bahrain International (BAH)"
+                    ],
+                    "Arrival_LocationText": [
+                        "Manama, Bahrain - Bahrain International (BAH)",
+                        "Dubai, United Arab Emirates - Dubai (DXB)"
+                    ],
+                    "OperatingAirline_Text": [
+                        "Gulf Air",
+                        "Gulf Air"
+                    ],
+                    "MarketingAirline_Text": [
+                        "Gulf Air",
+                        "Gulf Air"
+                    ],
+                    "Cabin_Text": [
+                        "Economy",
+                        "Economy"
+                    ],
+                    "PassengerTypeText": [
+                        "Adult",
+                        "Child"
+                    ],
+                    "OperatingAirline_Image": [
+                        "https://goagentgomarket.vgtechdemo.com/public/assets/airlines/GF.svg",
+                        "https://goagentgomarket.vgtechdemo.com/public/assets/airlines/GF.svg"
+                    ],
+                    "returndata": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "onewaydata": [
+                {
+                    "api": "sabre",
+                    "pcc": "WD4H",
+                    "vat": 0,
+                    "meal": "B,S",
+                    "cabin": [
+                        "Y",
+                        "Y"
+                    ],
+                    "stops": 2,
+                    "adults": "1",
+                    "origin": "DEL",
+                    "infants": "0",
+                    "agent_id": 1,
+                    "children": "1",
+                    "discount": 0,
+                    "duration": [
+                        "290",
+                        "85"
+                    ],
+                    "net_fare": 800428,
+                    "tax_code": "TOTALTAX",
+                    "base_fare": 482122,
+                    "fare_type": ",",
+                    "flight_id": 1,
+                    "group_ind": 2,
+                    "trip_type": "S",
+                    "agent_name": "Vijay Porje",
+                    "session_id": "FI7V7NDR90921",
+                    "tax_amount": 318306,
+                    "total_fare": 800628,
+                    "destination": "DXB",
+                    "access_token": "T1RLAQLtkftG5J7G9KeFKX/YFTz8AnBwk60sBsE4uZYwGhv6nRBgfxF7xyeiy2r/qyA1vskZAADQGFiqrw/sQsYbWF5H5lgRUXNxQH6U74ZST3WoW1APtufdPEiWpa8exKGqr64siXJpYvEsCLDeH29/EnDhvqd8khS4BXLME8R5trLo39EYP0qd4IfS6nPn50A2xTAefL5f2FtHM8ni9NcxqsPzq1as81ZkXV1OyPA1gwzwb6S2SIqWRTY2ys+jnhBXlhJIo3nwFf+XUSGD7lkdqxaH2X8Obrw8kiPzOfd7EEO1AT4qmtOJEJvxOJDN+ON/Di1K5SvvOKWrJPp3/+aGC9AYZszUUg**",
+                    "admin_markup": 0,
+                    "agent_markup": 0,
+                    "seat_to_sell": [
+                        "9",
+                        "9"
+                    ],
+                    "currency_code": "NGN",
+                    "direction_ind": "OneWay",
+                    "flight_number": [
+                        "131",
+                        "510"
+                    ],
+                    "stop_quantity": [
+                        "0",
+                        "0"
+                    ],
+                    "unique_ref_no": "FI7V7NDR9092",
+                    "air_equip_type": [
+                        "32Q",
+                        "32Q"
+                    ],
+                    "passenger_type": [
+                        "ADT",
+                        "CNN"
+                    ],
+                    "payment_charge": 0,
+                    "service_charge": 0,
+                    "total_duration": 375,
+                    "discount_markup": 0,
+                    "equivalent_fare": 482122,
+                    "arrival_date_time": [
+                        "2024-11-22T08:00:00",
+                        "2024-11-22T20:35:00"
+                    ],
+                    "ordinary_discount": 0,
+                    "passenger_quantity": [
+                        "1",
+                        "1"
+                    ],
+                    "baggage_information": [
+                        [
+                            {
+                                "Pieces": 2
+                            }
+                        ],
+                        [
+                            {
+                                "Pieces": 2
+                            }
+                        ]
+                    ],
+                    "departure_date_time": [
+                        "2024-11-22T05:40:00",
+                        "2024-11-22T18:10:00"
+                    ],
+                    "passenger_base_fare": [
+                        "12160",
+                        "12160"
+                    ],
+                    "passenger_total_tax": [
+                        "159153",
+                        "159153"
+                    ],
+                    "passenger_total_fare": [
+                        "400214",
+                        "400214"
+                    ],
+                    "arrival_location_code": [
+                        "BAH",
+                        "DXB"
+                    ],
+                    "marketing_airline_code": [
+                        "GF",
+                        "GF"
+                    ],
+                    "operating_airline_code": [
+                        "GF",
+                        "GF"
+                    ],
+                    "api_cancellation_amount": 0,
+                    "base_fare_currency_code": "NGN",
+                    "departure_location_code": [
+                        "DEL",
+                        "BAH"
+                    ],
+                    "admin_cancellation_amount": 0,
+                    "passenger_equivalent_fare": [
+                        "241061",
+                        "241061"
+                    ],
+                    "res_book_designation_code": [
+                        "W",
+                        "W"
+                    ],
+                    "operating_airline_flight_number": [
+                        "131",
+                        "510"
+                    ],
+                    "Origin_Text": "New Delhi, India - Indira Gandhi Intl (DEL)",
+                    "Destination_Text": "Dubai, United Arab Emirates - Dubai (DXB)",
+                    "Departure_LocationText": [
+                        "New Delhi, India - Indira Gandhi Intl (DEL)",
+                        "Manama, Bahrain - Bahrain International (BAH)"
+                    ],
+                    "Arrival_LocationText": [
+                        "Manama, Bahrain - Bahrain International (BAH)",
+                        "Dubai, United Arab Emirates - Dubai (DXB)"
+                    ],
+                    "OperatingAirline_Text": [
+                        "Gulf Air",
+                        "Gulf Air"
+                    ],
+                    "MarketingAirline_Text": [
+                        "Gulf Air",
+                        "Gulf Air"
+                    ],
+                    "Cabin_Text": [
+                        "Economy",
+                        "Economy"
+                    ],
+                    "PassengerTypeText": [
+                        "Adult",
+                        "Child"
+                    ],
+                    "OperatingAirline_Image": [
+                        "https://goagentgomarket.vgtechdemo.com/public/assets/airlines/GF.svg",
+                        "https://goagentgomarket.vgtechdemo.com/public/assets/airlines/GF.svg"
+                    ],
+                    "returndata": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "onewaydata": [
+                {
+                    "api": "sabre",
+                    "pcc": "WD4H",
+                    "vat": 0,
+                    "meal": "B,S",
+                    "cabin": [
+                        "Y",
+                        "Y"
+                    ],
+                    "stops": 2,
+                    "adults": "1",
+                    "origin": "DEL",
+                    "infants": "0",
+                    "agent_id": 1,
+                    "children": "1",
+                    "discount": 0,
+                    "duration": [
+                        "290",
+                        "80"
+                    ],
+                    "net_fare": 800428,
+                    "tax_code": "TOTALTAX",
+                    "base_fare": 482122,
+                    "fare_type": ",",
+                    "flight_id": 2,
+                    "group_ind": 3,
+                    "trip_type": "S",
+                    "agent_name": "Vijay Porje",
+                    "session_id": "FI7V7NDR90921",
+                    "tax_amount": 318306,
+                    "total_fare": 800628,
+                    "destination": "DXB",
+                    "access_token": "T1RLAQLtkftG5J7G9KeFKX/YFTz8AnBwk60sBsE4uZYwGhv6nRBgfxF7xyeiy2r/qyA1vskZAADQGFiqrw/sQsYbWF5H5lgRUXNxQH6U74ZST3WoW1APtufdPEiWpa8exKGqr64siXJpYvEsCLDeH29/EnDhvqd8khS4BXLME8R5trLo39EYP0qd4IfS6nPn50A2xTAefL5f2FtHM8ni9NcxqsPzq1as81ZkXV1OyPA1gwzwb6S2SIqWRTY2ys+jnhBXlhJIo3nwFf+XUSGD7lkdqxaH2X8Obrw8kiPzOfd7EEO1AT4qmtOJEJvxOJDN+ON/Di1K5SvvOKWrJPp3/+aGC9AYZszUUg**",
+                    "admin_markup": 0,
+                    "agent_markup": 0,
+                    "seat_to_sell": [
+                        "9",
+                        "9"
+                    ],
+                    "currency_code": "NGN",
+                    "direction_ind": "OneWay",
+                    "flight_number": [
+                        "131",
+                        "504"
+                    ],
+                    "stop_quantity": [
+                        "0",
+                        "0"
+                    ],
+                    "unique_ref_no": "FI7V7NDR9092",
+                    "air_equip_type": [
+                        "32Q",
+                        "32Q"
+                    ],
+                    "passenger_type": [
+                        "ADT",
+                        "CNN"
+                    ],
+                    "payment_charge": 0,
+                    "service_charge": 0,
+                    "total_duration": 370,
+                    "discount_markup": 0,
+                    "equivalent_fare": 482122,
+                    "arrival_date_time": [
+                        "2024-11-22T08:00:00",
+                        "2024-11-22T12:10:00"
+                    ],
+                    "ordinary_discount": 0,
+                    "passenger_quantity": [
+                        "1",
+                        "1"
+                    ],
+                    "baggage_information": [
+                        [
+                            {
+                                "Pieces": 2
+                            }
+                        ],
+                        [
+                            {
+                                "Pieces": 2
+                            }
+                        ]
+                    ],
+                    "departure_date_time": [
+                        "2024-11-22T05:40:00",
+                        "2024-11-22T09:50:00"
+                    ],
+                    "passenger_base_fare": [
+                        "12160",
+                        "12160"
+                    ],
+                    "passenger_total_tax": [
+                        "159153",
+                        "159153"
+                    ],
+                    "passenger_total_fare": [
+                        "400214",
+                        "400214"
+                    ],
+                    "arrival_location_code": [
+                        "BAH",
+                        "DXB"
+                    ],
+                    "marketing_airline_code": [
+                        "GF",
+                        "GF"
+                    ],
+                    "operating_airline_code": [
+                        "GF",
+                        "GF"
+                    ],
+                    "api_cancellation_amount": 0,
+                    "base_fare_currency_code": "NGN",
+                    "departure_location_code": [
+                        "DEL",
+                        "BAH"
+                    ],
+                    "admin_cancellation_amount": 0,
+                    "passenger_equivalent_fare": [
+                        "241061",
+                        "241061"
+                    ],
+                    "res_book_designation_code": [
+                        "W",
+                        "W"
+                    ],
+                    "operating_airline_flight_number": [
+                        "131",
+                        "504"
+                    ],
+                    "Origin_Text": "New Delhi, India - Indira Gandhi Intl (DEL)",
+                    "Destination_Text": "Dubai, United Arab Emirates - Dubai (DXB)",
+                    "Departure_LocationText": [
+                        "New Delhi, India - Indira Gandhi Intl (DEL)",
+                        "Manama, Bahrain - Bahrain International (BAH)"
+                    ],
+                    "Arrival_LocationText": [
+                        "Manama, Bahrain - Bahrain International (BAH)",
+                        "Dubai, United Arab Emirates - Dubai (DXB)"
+                    ],
+                    "OperatingAirline_Text": [
+                        "Gulf Air",
+                        "Gulf Air"
+                    ],
+                    "MarketingAirline_Text": [
+                        "Gulf Air",
+                        "Gulf Air"
+                    ],
+                    "Cabin_Text": [
+                        "Economy",
+                        "Economy"
+                    ],
+                    "PassengerTypeText": [
+                        "Adult",
+                        "Child"
+                    ],
+                    "OperatingAirline_Image": [
+                        "https://goagentgomarket.vgtechdemo.com/public/assets/airlines/GF.svg",
+                        "https://goagentgomarket.vgtechdemo.com/public/assets/airlines/GF.svg"
+                    ],
+                    "returndata": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "onewaydata": [
+                {
+                    "api": "sabre",
+                    "pcc": "WD4H",
+                    "vat": 0,
+                    "meal": "D,S",
+                    "cabin": [
+                        "Y",
+                        "Y"
+                    ],
+                    "stops": 2,
+                    "adults": "1",
+                    "origin": "DEL",
+                    "infants": "0",
+                    "agent_id": 1,
+                    "children": "1",
+                    "discount": 0,
+                    "duration": [
+                        "290",
+                        "75"
+                    ],
+                    "net_fare": 800428,
+                    "tax_code": "TOTALTAX",
+                    "base_fare": 482122,
+                    "fare_type": ",",
+                    "flight_id": 3,
+                    "group_ind": 4,
+                    "trip_type": "S",
+                    "agent_name": "Vijay Porje",
+                    "session_id": "FI7V7NDR90921",
+                    "tax_amount": 318306,
+                    "total_fare": 800628,
+                    "destination": "DXB",
+                    "access_token": "T1RLAQLtkftG5J7G9KeFKX/YFTz8AnBwk60sBsE4uZYwGhv6nRBgfxF7xyeiy2r/qyA1vskZAADQGFiqrw/sQsYbWF5H5lgRUXNxQH6U74ZST3WoW1APtufdPEiWpa8exKGqr64siXJpYvEsCLDeH29/EnDhvqd8khS4BXLME8R5trLo39EYP0qd4IfS6nPn50A2xTAefL5f2FtHM8ni9NcxqsPzq1as81ZkXV1OyPA1gwzwb6S2SIqWRTY2ys+jnhBXlhJIo3nwFf+XUSGD7lkdqxaH2X8Obrw8kiPzOfd7EEO1AT4qmtOJEJvxOJDN+ON/Di1K5SvvOKWrJPp3/+aGC9AYZszUUg**",
+                    "admin_markup": 0,
+                    "agent_markup": 0,
+                    "seat_to_sell": [
+                        "5",
+                        "5"
+                    ],
+                    "currency_code": "NGN",
+                    "direction_ind": "OneWay",
+                    "flight_number": [
+                        "135",
+                        "500"
+                    ],
+                    "stop_quantity": [
+                        "0",
+                        "0"
+                    ],
+                    "unique_ref_no": "FI7V7NDR9092",
+                    "air_equip_type": [
+                        "32Q",
+                        "32N"
+                    ],
+                    "passenger_type": [
+                        "ADT",
+                        "CNN"
+                    ],
+                    "payment_charge": 0,
+                    "service_charge": 0,
+                    "total_duration": 365,
+                    "discount_markup": 0,
+                    "equivalent_fare": 482122,
+                    "arrival_date_time": [
+                        "2024-11-22T23:55:00",
+                        "2024-11-23T04:10:00"
+                    ],
+                    "ordinary_discount": 0,
+                    "passenger_quantity": [
+                        "1",
+                        "1"
+                    ],
+                    "baggage_information": [
+                        [
+                            {
+                                "Pieces": 2
+                            }
+                        ],
+                        [
+                            {
+                                "Pieces": 2
+                            }
+                        ]
+                    ],
+                    "departure_date_time": [
+                        "2024-11-22T21:35:00",
+                        "2024-11-23T01:55:00"
+                    ],
+                    "passenger_base_fare": [
+                        "12160",
+                        "12160"
+                    ],
+                    "passenger_total_tax": [
+                        "159153",
+                        "159153"
+                    ],
+                    "passenger_total_fare": [
+                        "400214",
+                        "400214"
+                    ],
+                    "arrival_location_code": [
+                        "BAH",
+                        "DXB"
+                    ],
+                    "marketing_airline_code": [
+                        "GF",
+                        "GF"
+                    ],
+                    "operating_airline_code": [
+                        "GF",
+                        "GF"
+                    ],
+                    "api_cancellation_amount": 0,
+                    "base_fare_currency_code": "NGN",
+                    "departure_location_code": [
+                        "DEL",
+                        "BAH"
+                    ],
+                    "admin_cancellation_amount": 0,
+                    "passenger_equivalent_fare": [
+                        "241061",
+                        "241061"
+                    ],
+                    "res_book_designation_code": [
+                        "W",
+                        "W"
+                    ],
+                    "operating_airline_flight_number": [
+                        "135",
+                        "500"
+                    ],
+                    "Origin_Text": "New Delhi, India - Indira Gandhi Intl (DEL)",
+                    "Destination_Text": "Dubai, United Arab Emirates - Dubai (DXB)",
+                    "Departure_LocationText": [
+                        "New Delhi, India - Indira Gandhi Intl (DEL)",
+                        "Manama, Bahrain - Bahrain International (BAH)"
+                    ],
+                    "Arrival_LocationText": [
+                        "Manama, Bahrain - Bahrain International (BAH)",
+                        "Dubai, United Arab Emirates - Dubai (DXB)"
+                    ],
+                    "OperatingAirline_Text": [
+                        "Gulf Air",
+                        "Gulf Air"
+                    ],
+                    "MarketingAirline_Text": [
+                        "Gulf Air",
+                        "Gulf Air"
+                    ],
+                    "Cabin_Text": [
+                        "Economy",
+                        "Economy"
+                    ],
+                    "PassengerTypeText": [
+                        "Adult",
+                        "Child"
+                    ],
+                    "OperatingAirline_Image": [
+                        "https://goagentgomarket.vgtechdemo.com/public/assets/airlines/GF.svg",
+                        "https://goagentgomarket.vgtechdemo.com/public/assets/airlines/GF.svg"
+                    ],
+                    "returndata": [
+                        {}
+                    ]
+                }
+            ]
+        },
+        {
+            "onewaydata": [
+                {
+                    "api": "sabre",
+                    "pcc": "WD4H",
+                    "vat": 0,
+                    "meal": "D,S",
+                    "cabin": [
+                        "Y",
+                        "Y"
+                    ],
+                    "stops": 2,
+                    "adults": "1",
+                    "origin": "DEL",
+                    "infants": "0",
+                    "agent_id": 1,
+                    "children": "1",
+                    "discount": 0,
+                    "duration": [
+                        "290",
+                        "80"
+                    ],
+                    "net_fare": 800428,
+                    "tax_code": "TOTALTAX",
+                    "base_fare": 482122,
+                    "fare_type": ",",
+                    "flight_id": 4,
+                    "group_ind": 5,
+                    "trip_type": "S",
+                    "agent_name": "Vijay Porje",
+                    "session_id": "FI7V7NDR90921",
+                    "tax_amount": 318306,
+                    "total_fare": 800628,
+                    "destination": "DXB",
+                    "access_token": "T1RLAQLtkftG5J7G9KeFKX/YFTz8AnBwk60sBsE4uZYwGhv6nRBgfxF7xyeiy2r/qyA1vskZAADQGFiqrw/sQsYbWF5H5lgRUXNxQH6U74ZST3WoW1APtufdPEiWpa8exKGqr64siXJpYvEsCLDeH29/EnDhvqd8khS4BXLME8R5trLo39EYP0qd4IfS6nPn50A2xTAefL5f2FtHM8ni9NcxqsPzq1as81ZkXV1OyPA1gwzwb6S2SIqWRTY2ys+jnhBXlhJIo3nwFf+XUSGD7lkdqxaH2X8Obrw8kiPzOfd7EEO1AT4qmtOJEJvxOJDN+ON/Di1K5SvvOKWrJPp3/+aGC9AYZszUUg**",
+                    "admin_markup": 0,
+                    "agent_markup": 0,
+                    "seat_to_sell": [
+                        "2",
+                        "2"
+                    ],
+                    "currency_code": "NGN",
+                    "direction_ind": "OneWay",
+                    "flight_number": [
+                        "135",
+                        "504"
+                    ],
+                    "stop_quantity": [
+                        "0",
+                        "0"
+                    ],
+                    "unique_ref_no": "FI7V7NDR9092",
+                    "air_equip_type": [
+                        "32Q",
+                        "32N"
+                    ],
+                    "passenger_type": [
+                        "ADT",
+                        "CNN"
+                    ],
+                    "payment_charge": 0,
+                    "service_charge": 0,
+                    "total_duration": 370,
+                    "discount_markup": 0,
+                    "equivalent_fare": 482122,
+                    "arrival_date_time": [
+                        "2024-11-22T23:55:00",
+                        "2024-11-23T12:10:00"
+                    ],
+                    "ordinary_discount": 0,
+                    "passenger_quantity": [
+                        "1",
+                        "1"
+                    ],
+                    "baggage_information": [
+                        [
+                            {
+                                "Pieces": 2
+                            }
+                        ],
+                        [
+                            {
+                                "Pieces": 2
+                            }
+                        ]
+                    ],
+                    "departure_date_time": [
+                        "2024-11-22T21:35:00",
+                        "2024-11-23T09:50:00"
+                    ],
+                    "passenger_base_fare": [
+                        "12160",
+                        "12160"
+                    ],
+                    "passenger_total_tax": [
+                        "159153",
+                        "159153"
+                    ],
+                    "passenger_total_fare": [
+                        "400214",
+                        "400214"
+                    ],
+                    "arrival_location_code": [
+                        "BAH",
+                        "DXB"
+                    ],
+                    "marketing_airline_code": [
+                        "GF",
+                        "GF"
+                    ],
+                    "operating_airline_code": [
